@@ -19,10 +19,10 @@ def homepage():
 
 @app.route("/contraceptives")
 def contraceptives():
-    return redirect("/contraceptives/info.html")
+    return render_template("contraceptives.html")
 
-@app.route("/birth_control")
+@app.route("/birthcontrol")
 def birth_control():
-    return redirect("/birth_control/info.html")
+    return render_template("birthcontrol.html")
 
 app.run(host="0.0.0.0", port=8022, debug=True)
