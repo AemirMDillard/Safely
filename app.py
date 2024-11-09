@@ -22,7 +22,7 @@ def contraceptives():
     return render_template("contraceptives.html")
 
 @app.route("/birthcontrol")
-def birth_control():
+def birthcontrol():
     return render_template("birthcontrol.html")
 
 app.run(host="0.0.0.0", port=8022, debug=True)
