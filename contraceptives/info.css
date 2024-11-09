@@ -1,0 +1,56 @@
+.banner {
+    width: 100%;
+    height: 30px;
+    background-color: pink;
+}
+
+
+.banner {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 89, 106);
+    display: flex;
+    flex-direction: row;
+}
+
+html {
+    background-color: rgb(251, 242, 243);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(251, 242, 243);
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 20%;
+    height: 200%;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.navitem {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-left: 60px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.navitem:hover {
+    background-color: rgb(243, 222, 222);
+    color: rgb(230, 58, 86);
+    padding: 10px;
+    border-radius: 30%;
+  }
+

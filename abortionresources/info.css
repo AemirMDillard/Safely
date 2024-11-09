@@ -1,3 +1,35 @@
+.clinics {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.clinic_icon {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    
+}
+
+.single-clinic {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    display: flex;
+    text-wrap:nowrap;
+    margin-left: 50px;
+}
+
+.about-clinic {
+    margin-top: 40px;
+    justify-content: center;
+}
+
 
 .banner {
     width: 100%;
