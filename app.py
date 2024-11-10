@@ -25,4 +25,8 @@ def contraceptives():
 def birthcontrol():
     return render_template("birthcontrol.html")
 
+@app.route("/map")
+def map():
+    return render_template("map.html")
+
 app.run(host="0.0.0.0", port=8022, debug=True)
